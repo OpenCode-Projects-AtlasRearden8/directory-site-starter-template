@@ -1,0 +1,168 @@
+/* Directory site template — warm, plain, no dependencies. */
+
+:root {
+  --bg: #faf6ef;
+  --ink: #2b2a27;
+  --muted: #6b6257;
+  --card: #ffffff;
+  --line: #e6ddcd;
+  --accent: #2f6f4e;
+  --accent-soft: #e7f2ec;
+  --warn: #8a4a12;
+  --warn-soft: #fdf0e3;
+  --error: #8c2f2f;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Garamond, Georgia, "Times New Roman", serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 3rem;
+}
+
+header.site-head {
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+h1 { font-size: 1.9rem; margin: 0 0 0.25rem; }
+.tagline { color: var(--muted); margin: 0 0 0.5rem; }
+#data-meta { color: var(--muted); font-size: 0.95rem; }
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.9rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+  min-width: 10rem;
+}
+
+.controls label.grow { flex: 2 1 16rem; }
+
+.controls input,
+.controls select {
+  font: inherit;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid var(--line);
+  border-radius: 0.4rem;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.controls input:focus,
+.controls select:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+#count { color: var(--muted); margin: 0 0 0.75rem; }
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  padding: 0.9rem 1rem 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.card-name { font-size: 1.15rem; margin: 0; }
+
+.card-category {
+  font-size: 0.78rem;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  white-space: nowrap;
+}
+
+.badges { display: flex; }
+.badge {
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 0.12rem 0.55rem;
+}
+.badge-ok { background: var(--accent-soft); color: var(--accent); }
+.badge-overdue { background: var(--warn-soft); color: var(--warn); }
+
+.card p { margin: 0; font-size: 0.95rem; }
+.card-notes { color: var(--muted); }
+
+.card-dates { color: var(--muted); font-size: 0.85rem; }
+
+.card-link a {
+  color: var(--accent);
+  word-break: break-all;
+}
+
+.empty, .error {
+  grid-column: 1 / -1;
+  padding: 1rem;
+  border: 1px dashed var(--line);
+  border-radius: 0.6rem;
+  color: var(--muted);
+}
+
+.error {
+  border-style: solid;
+  border-color: var(--error);
+  color: var(--error);
+}
+
+footer.site-foot {
+  border-top: 1px solid var(--line);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+footer.site-foot a { color: var(--accent); }
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}

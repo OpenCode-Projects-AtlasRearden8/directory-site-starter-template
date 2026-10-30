@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A directory of genuinely free tools, with costs, limits, and verified-free dates maintained by Asdale Dynamics, LLC.">
+  <title>Free AI Tools Directory</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="site-head">
+      <h1>Free AI Tools Directory</h1>
+      <p class="tagline">Real free tiers, not trials that expire tomorrow.</p>
+      <p id="data-meta">Loading directory data&hellip;</p>
+    </header>
+
+    <form class="controls" onsubmit="return false;">
+      <label class="grow">
+        <span>Search</span>
+        <input id="search" type="search" placeholder="Search by name, cost, limits, or notes&hellip;" autocomplete="off" autofocus>
+      </label>
+      <label>
+        <span>Category</span>
+        <select id="category">
+          <option value="all">All categories</option>
+        </select>
+      </label>
+      <label>
+        <span>Sort</span>
+        <select id="sort">
+          <option value="az">Name A&ndash;Z</option>
+          <option value="za">Name Z&ndash;A</option>
+          <option value="recheck">Recheck soonest</option>
+        </select>
+      </label>
+    </form>
+
+    <p id="count" role="status" aria-live="polite">Loading&hellip;</p>
+
+    <main id="cards" aria-label="Directory cards"></main>
+
+    <footer class="site-foot">
+      <p>
+        Maintained by <a href="https://dylanasdale.github.io">Asdale Dynamics, LLC</a> &mdash;
+        the folks behind <em>The Massive AI Manual</em>. Dates record when each
+        tool was last verified as free; free tiers change, so re-verify anything
+        that matters before you rely on it. MIT licensed &mdash; copy this
+        template for your own directory.
+      </p>
+    </footer>
+  </div>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>

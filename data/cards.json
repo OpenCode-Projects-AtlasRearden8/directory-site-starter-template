@@ -1,0 +1,186 @@
+{
+  "title": "Free AI Tools Directory",
+  "tagline": "Real free tiers, not trials that expire tomorrow",
+  "updated": "2026-10-30",
+  "maintained_by": "Asdale Dynamics, LLC",
+  "categories": [
+    "Chat",
+    "AI coding",
+    "Images",
+    "Local AI",
+    "Automation",
+    "Hosting"
+  ],
+  "cards": [
+    {
+      "name": "ChatGPT",
+      "category": "Chat",
+      "url": "https://chatgpt.com",
+      "cost": "Free tier",
+      "limits": "Message caps on the standard model that reset over time; advanced models reserved for paid plans",
+      "verified_free_on": "2026-10-12",
+      "recheck_on": "2027-01-12",
+      "notes": "The easiest starting point if you have never used an AI chat before."
+    },
+    {
+      "name": "Claude",
+      "category": "Chat",
+      "url": "https://claude.ai",
+      "cost": "Free tier",
+      "limits": "Daily message cap that varies with demand; longer chats soak up the cap faster",
+      "verified_free_on": "2026-10-12",
+      "recheck_on": "2027-01-12",
+      "notes": "Known for long, careful answers and a big context window."
+    },
+    {
+      "name": "Google Gemini",
+      "category": "Chat",
+      "url": "https://gemini.google.com",
+      "cost": "Free tier",
+      "limits": "Standard model free with a generous cap; advanced models are paid",
+      "verified_free_on": "2026-10-12",
+      "recheck_on": "2027-01-12",
+      "notes": "Handy if you already live in Gmail and Google Docs."
+    },
+    {
+      "name": "Microsoft Copilot",
+      "category": "Chat",
+      "url": "https://copilot.microsoft.com",
+      "cost": "Free tier",
+      "limits": "Free daily chat; image generation has slower speeds on the free tier",
+      "verified_free_on": "2026-10-14",
+      "recheck_on": "2027-01-14",
+      "notes": "Works in Edge and Windows without an extra account beyond a Microsoft login."
+    },
+    {
+      "name": "Mistral Le Chat",
+      "category": "Chat",
+      "url": "https://chat.mistral.ai",
+      "cost": "Free tier",
+      "limits": "Rate limits during busy periods; some flagship models are paid only",
+      "verified_free_on": "2026-09-20",
+      "recheck_on": "2026-12-20",
+      "notes": "A quick, no-nonsense European alternative."
+    },
+    {
+      "name": "HuggingChat",
+      "category": "Chat",
+      "url": "https://huggingface.co/chat",
+      "cost": "Open source, hosted free",
+      "limits": "Open-source models free to chat with; usage caps at peak times",
+      "verified_free_on": "2026-09-20",
+      "recheck_on": "2026-12-20",
+      "notes": "Good way to try open-weight models with zero setup."
+    },
+    {
+      "name": "DeepSeek",
+      "category": "Chat",
+      "url": "https://chat.deepseek.com",
+      "cost": "Free tier",
+      "limits": "Free chat and code help; heavy reasoning may queue during peak hours",
+      "verified_free_on": "2026-09-20",
+      "recheck_on": "2026-12-20",
+      "notes": "Strong at math and code for a free service."
+    },
+    {
+      "name": "GitHub Copilot",
+      "category": "AI coding",
+      "url": "https://github.com/features/copilot",
+      "cost": "Free tier",
+      "limits": "Monthly cap on completions and chats for free accounts; premium models are paid",
+      "verified_free_on": "2026-10-20",
+      "recheck_on": "2027-01-20",
+      "notes": "Sign in with your GitHub account; the free tier moved into VS Code and github.com."
+    },
+    {
+      "name": "Google AI Studio",
+      "category": "AI coding",
+      "url": "https://aistudio.google.com",
+      "cost": "Free tier",
+      "limits": "Daily request quotas per model for API experiments; free tier data may be used to improve models",
+      "verified_free_on": "2026-10-20",
+      "recheck_on": "2027-01-20",
+      "notes": "The friendliest way to experiment with Gemini as a developer."
+    },
+    {
+      "name": "Qwen Coding Portal",
+      "category": "AI coding",
+      "url": "https://chat.qwen.ai",
+      "cost": "Free tier",
+      "limits": "Free access with rate limits; coding models queue at busy times",
+      "verified_free_on": "2026-10-20",
+      "recheck_on": "2027-01-20",
+      "notes": "Popular free option for AI-assisted coding sessions."
+    },
+    {
+      "name": "Microsoft Designer",
+      "category": "Images",
+      "url": "https://designer.microsoft.com",
+      "cost": "Free tier",
+      "limits": "Daily image credits with slower boosts on the free plan",
+      "verified_free_on": "2026-10-14",
+      "recheck_on": "2027-01-14",
+      "notes": "Text-to-image plus quick social-post layouts."
+    },
+    {
+      "name": "Canva",
+      "category": "Images",
+      "url": "https://www.canva.com",
+      "cost": "Free tier",
+      "limits": "Core editor free; Pro stock assets and AI credits are clearly marked paid",
+      "verified_free_on": "2026-10-14",
+      "recheck_on": "2027-01-14",
+      "notes": "The free plan is genuinely usable if you avoid Pro-marked items."
+    },
+    {
+      "name": "Ollama",
+      "category": "Local AI",
+      "url": "https://ollama.com",
+      "cost": "Free, open source",
+      "limits": "Runs on your own machine; model size limited by your RAM and disk",
+      "verified_free_on": "2026-10-12",
+      "recheck_on": "2027-01-12",
+      "notes": "One command installs a local model runner; nothing leaves your computer."
+    },
+    {
+      "name": "LM Studio",
+      "category": "Local AI",
+      "url": "https://lmstudio.ai",
+      "cost": "Free for personal use",
+      "limits": "Desktop app testing free for individuals; needs roughly 8 GB RAM or more",
+      "verified_free_on": "2026-10-12",
+      "recheck_on": "2027-01-12",
+      "notes": "Point-and-click local models, no terminal comfort required."
+    },
+    {
+      "name": "Jan",
+      "category": "Local AI",
+      "url": "https://jan.ai",
+      "cost": "Free, open source",
+      "limits": "Runs local models on your hardware; speed depends on your CPU and RAM",
+      "verified_free_on": "2026-10-12",
+      "recheck_on": "2027-01-12",
+      "notes": "Open-source desktop app with an interface like a chat app."
+    },
+    {
+      "name": "Google Colab",
+      "category": "Automation",
+      "url": "https://colab.research.google.com",
+      "cost": "Free tier",
+      "limits": "Free notebooks share GPUs with time and idle limits; long sessions eventually disconnect",
+      "verified_free_on": "2026-10-14",
+      "recheck_on": "2027-01-14",
+      "notes": "Run Python automations without installing anything."
+    },
+    {
+      "name": "GitHub Pages",
+      "category": "Hosting",
+      "url": "https://pages.github.com",
+      "cost": "Free",
+      "limits": "Public repos only on free accounts; published content must be non-personal, non-commercial per GitHub's terms",
+      "verified_free_on": "2026-10-20",
+      "recheck_on": "2027-01-20",
+      "notes": "Hosting for sites exactly like the one this template builds."
+    }
+  ]
+}
